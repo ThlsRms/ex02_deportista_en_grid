@@ -10,6 +10,7 @@ body {
     color: antiquewhite;
     background-image: linear-gradient(#5f5f61, #686669);
     overflow: hidden;
+    position: fixed;
 }
 
 a:link {
@@ -94,7 +95,8 @@ main {
 
 .content {
     height: 50%;
-    overflow-y: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
 }
 
 .content > section {
@@ -125,12 +127,8 @@ main {
 @media (min-width: 992px) {
     .grid {
         display: grid;
-        grid-template-columns: 1fr 5fr;
+        grid-template-columns: 1fr 3fr;
         overflow: hidden;
-        /* grid-template-areas: 
-        'menu left center center right'
-        'menu left2 center2 center2 right2'
-        'menu footer footer footer footer'; */
     }
 }
 
@@ -149,5 +147,9 @@ main {
     .grid {
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .content {
+        height: 75%;
     }
 }
