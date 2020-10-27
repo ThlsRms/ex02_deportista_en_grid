@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    grid-auto-columns: 8.33%;
+    grid-auto-rows: 8.33%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-content {
+    padding-top: 5px;
+    position: sticky;
+    top: 0;
+    background-color: darkgray;
+    min-height: 100px;
+}
+
+.header-menu {
+    grid-column: 1 / 12;
+    grid-row: 9 / 12;
+    place-self: center center;
+}
+
+.header-button {
+    width: 70px;
+    height: 35px;
+    display: inline-block;
+    background-color: aqua;
+}
+
+.page-title {
+    grid-column: 1 / 12;
+    grid-row: 3;
+    place-self: center center;
+}
+
+main {
+    height: 100vh;
+}
+
+.main-content {
+    padding-top: 5%;
+    background-color: azure;
+}
+
+.about-vettel {
+    grid-column: 2 / 6;
+    grid-row: 1 / 4;
+    place-self: center stretch;
+}
+
+.training-routine {
+    grid-row: 6 / 10;
+    grid-column: 7 / 12;
+    place-self: center stretch;
+}
