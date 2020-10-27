@@ -13,6 +13,12 @@ body {
     position: fixed;
 }
 
+footer {
+    position: absolute;
+    bottom: 5px;
+    left: 25px;
+}
+
 a:link {
     color: antiquewhite;
   }
