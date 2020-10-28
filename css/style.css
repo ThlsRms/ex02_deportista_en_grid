@@ -134,6 +134,7 @@ main {
     grid-template-columns: 2fr 2fr 2fr;
     grid-template-rows: 200px 200px 200px 200px;
     gap: 5px 5px;
+    background-image: linear-gradient(to bottom right, #3e3c3f, #7e7c7f);
 }
 
 .cars-gallery > div {
@@ -160,6 +161,10 @@ main {
 .cars-gallery > div > img:hover {
     transform: scale(1.5);
     /* opacity: 0.65; */
+}
+
+.contact-container {
+    background-image: linear-gradient(to bottom right, #3e3c3f, #7e7c7f);
 }
 
 .contact-container > h3 {
