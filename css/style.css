@@ -17,7 +17,7 @@ body {
 footer {
     position: absolute;
     bottom: 5px;
-    left: 25px;
+    margin-left: 5%;
 }
 
 a:link {
@@ -260,6 +260,11 @@ main {
         grid-template-rows: 50px 5fr;
         margin-right: 5%;
         margin-left: 5%;
+    }
+
+    .cars-gallery > div {
+        height: 175px;
+        width: 100%;
     }
 
     #driver-info {
