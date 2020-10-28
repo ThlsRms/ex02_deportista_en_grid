@@ -209,12 +209,12 @@ main {
     }
 
     .cars-gallery {
-        grid-template-columns: 2fr 2fr 2fr 2fr;
-        grid-template-rows: 200px 200px 200px;
+        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-rows: 210px 210px 210px 210px;
     }
 
     .cars-gallery > div {
-        height: 200px;
+        height: 210px;
         width: 100%;
     }
 }
@@ -231,8 +231,8 @@ main {
 
     .cars-gallery {
         justify-items: center;
-        grid-template-columns: 2fr 2fr 2fr 2fr;
-        grid-template-rows: 200px 200px 200px;
+        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-rows: 200px 200px 200px 200px;
     }
 
     .cars-gallery > div {
