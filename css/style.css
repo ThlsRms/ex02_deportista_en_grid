@@ -116,6 +116,10 @@ main {
     font-size: 26px;
 }
 
+.txt-back {
+    margin-left: 25px;
+}
+
 #img01-vettel {
     position: fixed;
     /* width: 720px; */
