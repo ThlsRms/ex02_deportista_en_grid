@@ -153,9 +153,10 @@ main {
     .grid {
         display: grid;
         grid-template-columns: 1fr;
+        grid-template-rows: 60px 5fr;
     }
 
-    .content {
-        height: 75%;
+    #driver-info {
+        display: none;
     }
 }
