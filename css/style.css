@@ -154,6 +154,29 @@ main {
     display: block;
 }
 
+.contact-container > h3 {
+    margin: 30px 0 20px 20px;
+}
+
+.contact-form {
+    margin: 0 20px 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 2fr 2fr 4fr;
+    width: 670px;
+    border-right: 3px dotted;
+    border-left: 3px dotted;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#form-submit-button {
+    display: flex;
+    margin-top: 40px;
+    width: 200px;
+    place-self: center center;
+}
+
 /********** Medium or bigger **********/
 
 @media (min-width: 992px) {
