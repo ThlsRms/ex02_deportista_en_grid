@@ -163,6 +163,7 @@ main {
     display: block;
     border-radius: 5px;
     transition: 0.25s;
+    object-fit: contain;
 }
 
 .cars-gallery > div > img:hover {
