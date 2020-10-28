@@ -127,6 +127,7 @@ main {
     /* grid-area: center; */
     z-index: -2;
     overflow: hidden;
+    border-radius: 25px;
 }
 
 #img01-vettel > img {
@@ -140,6 +141,7 @@ main {
     grid-template-rows: 200px 200px 200px 200px;
     gap: 5px 5px;
     background-image: linear-gradient(to bottom right, #3e3c3f, #7e7c7f);
+    border-radius: 25px;
 }
 
 .cars-gallery > div {
@@ -170,6 +172,7 @@ main {
 
 .contact-container {
     background-image: linear-gradient(to bottom right, #3e3c3f, #7e7c7f);
+    border-radius: 25px;
 }
 
 .contact-container > h3 {
@@ -201,6 +204,7 @@ main {
     .grid {
         display: grid;
         grid-template-columns: 1fr 3fr;
+        margin-right: 5%;
     }
 
     .cars-gallery {
@@ -221,16 +225,17 @@ main {
         display: grid;
         grid-template-columns: 1fr 3fr;
         overflow: hidden;
+        margin-right: 5%;
     }
 
     .cars-gallery {
         justify-items: center;
         grid-template-columns: 2fr 2fr 2fr 2fr;
-        grid-template-rows: 250px 250px 250px;
+        grid-template-rows: 200px 200px 200px;
     }
 
     .cars-gallery > div {
-        height: 250px;
+        height: 200px;
         width: 100%;
     }
 }
@@ -241,6 +246,7 @@ main {
     .grid {
         display: grid;
         grid-template-columns: 1fr 4fr;
+        margin-right: 5%;
     }
 }
 
@@ -251,6 +257,8 @@ main {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 50px 5fr;
+        margin-right: 5%;
+        margin-left: 5%;
     }
 
     #driver-info {
